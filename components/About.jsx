@@ -136,15 +136,7 @@ export default function About() {
                 We specialize in custom software development, web applications, automation and enterprise solutions.
               </motion.p>
 
-              <motion.a
-                href="#about"
-                variants={fadeUp}
-                whileHover={{ x: 4 }}
-                className="inline-flex items-center gap-2 text-black font-semibold"
-              >
-                More About Us
-                <ArrowRight size={16} />
-              </motion.a>
+             
 
             </div>
           </motion.div>

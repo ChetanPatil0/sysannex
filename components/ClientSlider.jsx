@@ -3,12 +3,13 @@
 import React from "react";
 
 const logos = [
-  "/clients/logo.png",
-  "/clients/logo.png",
-  "/clients/logo.png",
-  "/clients/logo.png",
-  "/clients/logo.png",
-  "/clients/logo.png",
+  "/clients/AmolFurniture.webp",
+  "/clients/mrf-logo.webp",
+  "/clients/Naikwadi.webp",
+  "/clients/RS_Engineers.webp",
+  "/clients/SGPS.webp",
+  "/clients/SSCHSSC.webp",
+   "/clients/Transindia.webp",
 ];
 
 const tripled = [...logos, ...logos, ...logos];
@@ -57,7 +58,7 @@ export default function ClientSlider() {
           100% { transform: translateX(-33.333%); }
         }
         .animate-marquee {
-          animation: marquee 20s linear infinite;
+          animation: marquee 30s linear infinite;
         }
       `}</style>
 
