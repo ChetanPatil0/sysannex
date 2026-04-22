@@ -24,7 +24,7 @@ export default function Footer() {
 
             <div className="flex items-center gap-3 mb-4">
                 <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="sysAnnex Logo"
             className="h-10 w-auto"
           />

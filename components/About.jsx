@@ -80,9 +80,9 @@ export default function About() {
           <div className="relative">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden shadow-lg">
               <img
-                src="/about_img1.jpg"
+                src="/about_img1.webp"
                 alt="SysAnnex"
-                loading="lazy"
+                // loading="lazy"
                 decoding="async"
                 className="w-full h-full object-cover"
               />

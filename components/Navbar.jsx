@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="/logo.png"
+            src="/logo.webp"
             alt="sysAnnex Logo"
             className="h-10 w-auto"
           />
