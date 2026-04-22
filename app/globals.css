@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+
+:root {
+  --primary-blue: #2563eb;
+  --teal: #14b8a6;
+  --green: #22c55e;
+  --accent-red: #ef4444;
+  --light-bg: #f8fafc;
+}
+
+body {
+  background: var(--light-bg);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.heading-font {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.tech-grid {
+  background-image: 
+    linear-gradient(rgba(37,99,235,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(37,99,235,0.06) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.dotted-grid {
+  background-image: radial-gradient(circle, #e2e8f0 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.floating-shape {
+  filter: blur(90px);
+  opacity: 0.12;
+  animation: floatSlow 40s infinite linear;
+}
+
+@keyframes floatSlow {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  100% { transform: translate(60px, -60px) rotate(360deg); }
+}
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
